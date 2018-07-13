@@ -1,0 +1,42 @@
+body{
+  border: 2px solid black;
+  padding: 25px;
+  background-image: url("https://images5.alphacoders.com/410/410316.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 800px
+}
+p {outline-color:red;}
+  p.double {outline-style: double;}
+
+li {
+  color:pink;
+  font-size: 14;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4d79ff;
+}
